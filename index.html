@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title> After Class DOM</title>
+</head>
+<body>
+<!-- header star -->
+<header>
+    <!-- nav start -->
+    <nav>
+
+    </nav>
+    <!-- nav end -->
+
+    <!-- siempre habrá un solo H1 por documento.html -->
+    <h1>After Class DOM</h1>
+</header>
+<!-- header end -->
+
+<!-- main start -->
+<main>
+
+        <!-- select text -->
+        <div class="carrusel">
+            <div class="textosContain">
+
+                <div id="contenedorTextosCarruselUno">
+                    <div id="textoShow" >
+                        <p class="txt" id="textoCarrusel">1ro Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati numquam, ad porro dolor ducimus similique magnam libero!</p>
+                        
+                    </div>
+                </div>
+              <div class="botones">
+                <button class="boton active" id="buttonUno"onclick="gliderMobileFunction(1, ' 1ro Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati numquam, ad porro dolor ducimus similique magnam libero!' )"></button>
+    
+                <button class="boton" id="buttonDos" onclick="gliderMobileFunction(2, ' 2do Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati numquam, ad porro dolor ducimus similique magnam libero!')"></button>
+    
+                <button class="boton" id="buttonTres"  onclick="gliderMobileFunction(3, '3ero Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati numquam, ad porro dolor ducimus similique magnam libero!')"></button>
+    
+                <button class="boton" id="buttonCuatro"  onclick="gliderMobileFunction(4, ' 4to Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati numquam, ad porro dolor ducimus similique magnam libero!')"></button>
+              </div>    
+              </div>
+        </div>
+    
+
+
+
+
+    <!-- formulario -->
+    <div class="formulario">
+        <form id="formulario">
+            <label for="">Nombre y apellido</label>
+            <input type="text" id="nombre" >
+            <label for="">Año de nacimiento</label>
+            <input type="text" id="edad">
+            <button type="submit" class="form-button">Enviar</button>
+        </form>
+    </div>
+    <div id="bienvenida" class="mensaje"></div>
+
+
+    <!-- lista -->
+    
+    <div id="laFactura">
+        
+    </div>
+    <div id="total">
+        
+    </div>
+
+
+
+
+    <!-- formulario -->
+
+<div class="form2">
+    <input type="text" class="numero">
+    <input type="text" class="numero">
+    <input type="text" class="numero">
+    <input type="button" value="Capturar" onclick="FormularioLleno()">
+
+
+
+    <div id="resultado"></div>
+</div>
+</main>
+<!-- main end -->
+
+
+<!-- footer start -->
+<footer>
+
+</footer>
+<!-- footer end -->
+
+
+<!-- scripts -->
+    
+<script src="./index.js"></script>
+</body>
+</html>
